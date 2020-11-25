@@ -1,0 +1,6 @@
+(function () { /*US-CA USA California*/
+	var country = {'code':'us','id':1,'defaultLangauge':'en-us', 'stateId': 1, 'stateCode': 'ca'};
+	if (!window.evidon) window.evidon = {};
+	if (window.evidon.notice) {window.evidon.notice.setLocation(country);}
+	window.evidon.location = country;
+})(); 
